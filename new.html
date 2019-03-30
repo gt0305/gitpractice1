@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>태훈쓰 홈페이지</title>
+    
+    <link rel="stylesheet" type="text/css" href="design.css">
+
+</head>
+<body>
+
+    <h1 style="color:blue;">나의 공간</h1>
+    <hr><hr>
+    <form action="전송할 대상">
+    아이디:<input type="text" name="id"> 
+    비밀번호:<input type="password" name="pw"> 
+    <input type=submit value=login>
+    </form>
+
+    <hr>
+    <hr>
+
+    <div id="a"><h3>개인정보</h3></div>
+
+    <nav> <ul> 
+        <li><a href="#a">email</a></li>
+         <li><a href="#b">phone number</a></li>
+          <li><a href="#c">address</a></li> 
+            <li><a href="#d">birth</a></li>
+        </ul> </nav> <hr>
+        
+        <img src="악어.png".jpg" width=200><br>
+        악어면 체크<input type="checkbox">
+        <hr> 
+
+    <form action="전송받을 대상">
+
+    이메일:<div id="a"><input type="email" placeholder="gt0305@naver.com"></div>    
+    연락처:<div id="b"><input type="text" placeholder="01066840078"></div>
+    주소  :<div id="c"><input type="text" placeholder="부산광역시"></div>
+    생년월일:<div id="d"><input type="date" name:생년></div>
+    <input type=submit value="전송">
+    </form>
+    <hr>
+<img src="악어.png".jpg width=200><br>
+<a href="aligator.html">악어</a>
+<hr>
+    <strong>나의 취미</strong>
+    <ol> 
+    <li>캘리그라피</li> 
+    <a href="캘리.jpg"><button>캘리 사진</button></a>
+    <li>스쿠버다이빙</li>
+    <a href="다이빙.jpg"><button>다이빙 사진</button></a>
+</ol><hr><br>
+
+<form action="제출받을 대상">
+
+    <strong>부록 : 일기</strong><br>
+
+    오늘 기분 선택지<br>
+<select name="feeling"> 
+    <option value=good_day>좋은 날</option>
+    <option value=soso_day>그저 그런 날</option>
+    <option value="bad_day">최악의 날</option>
+</select>
+
+<br>
+내용<br>
+<textarea name=diary cols=30, rows=20></textarea>
+<br>
+<input type="submit" value="일기 저장">
+</form>
+</body>
+</html>

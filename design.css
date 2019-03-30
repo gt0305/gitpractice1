@@ -1,0 +1,36 @@
+
+body {text-align: center}
+
+#a {color : red;
+        margin: 50px auto;
+        
+        
+        padding: 40px;
+
+}
+
+.parent
+{       border:10px solid black;
+
+
+        height:500px;
+        color:red;
+        width:100;
+        height:10;
+        background: url('악어.png') no-repeat center center;
+
+}
+
+
+.son1, .son2, .son3, .son4
+{
+        border:10px solid black;
+
+
+        height:200px;
+        color:red;
+        width:10;
+        height:10;
+
+
+}
